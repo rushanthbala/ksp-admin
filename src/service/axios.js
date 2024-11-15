@@ -2,7 +2,7 @@ import axios from "axios";
 
 const instance = axios.create({
   // change two place
-  baseURL: "http://localhost:8000",
+  baseURL: "https://ksp-server-production.up.railway.app",
 
   // baseURL: "https://api.apancollections.com",
   withCredentials: false,

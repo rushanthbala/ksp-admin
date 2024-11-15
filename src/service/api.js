@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const usersUrl = 'http://localhost:3003/users';
-const usersUrl = "http://localhost:8080";
+const usersUrl = "https://ksp-server-production.up.railway.app";
 
 export const getAPI = async (id) => {
   id = id || "";
