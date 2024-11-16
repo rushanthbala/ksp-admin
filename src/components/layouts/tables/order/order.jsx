@@ -140,27 +140,7 @@ const NewProductTable = () => {
 
   return (
     <div>
-      <div className="flex flex-col justify-between items-start sm:flex-row sm:items-center ">
-        <div className="">
-          <div
-            style={{ width: "140px" }}
-            className="text-gray-900  sm-px-5 sm-py-2.5 py-0 text-center inline-flex items-center  me-2 mb-2"
-          >
-            New Product
-          </div>
-        </div>
-
-        <div className="">
-          <button
-            type="button"
-            className=" text-black-900 bg-[#c7c7c7] hover:bg-gray-100 border border-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 items-center flex justify-center"
-            onClick={handleCreateClickOpen}
-            style={{ width: "200px", background: "black", color: "#fff" }}
-          >
-            Add New Product
-          </button>
-        </div>
-      </div>
+     
       <div style={containerStyle}>
         <div
           class="flex items-center justify-between  "
